@@ -1,0 +1,15 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.pytest_cache/
+
+# Fichas y guiones de clientes reales: solo se versionan los de demo.
+clientes/*.yaml
+!clientes/demo-*.yaml
+pruebas/*.txt
+!pruebas/demo-*.txt
+
+# Salida local de graphify.
+graphify-out/
